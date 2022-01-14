@@ -1,29 +1,30 @@
+/* universal selector for landing page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* background color for body */
 body {
     background-color: #d9dcd6;
 }
-
+/* properties for three clickable menu links */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* styling for HORI part of brand logo*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* styling for SEO part of brand logo */
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* positioning for menu options */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,21 +32,17 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-.header div ul {
-    list-style-type: none;
-}
-
+/* positioning for listed menu items */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* coloring for menu options */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* font size for paragraph content */
 p {
     font-size: 16px;
 }
@@ -59,23 +56,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* positioning for SEO and SMM bodies */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* positioning for ORM body */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* parent styling for all three bodies */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* parent styling for all three mini bodies on right column */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,24 +83,24 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* styling for all three mini bodies */
 .benefit-lead{
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* styling for all three mini bodies headers */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-
+/* styling for all three mini bodies images */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* styling for all three bodies content */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -112,23 +109,23 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* sizing for all three  bodies images*/
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* styling for all three bodies headlines */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* footer properties */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-.footer h2 {
+/* footer property */
+.footer h4 {
     font-size: 20px;
 }
